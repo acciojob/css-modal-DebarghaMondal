@@ -1,4 +1,3 @@
-/*  your css code here. If applicable */
 /* General styles */
 body {
   font-family: Arial, sans-serif;
@@ -27,6 +26,10 @@ button {
   height: 100%;
   overflow: auto;
   background-color: rgba(0, 0, 0, 0.5); /* semi-transparent overlay */
+}
+
+.modal.open {
+  display: block; /* Display when open */
 }
 
 .modal-content {
